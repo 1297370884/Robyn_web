@@ -7,11 +7,14 @@ from core.database import AsyncSessionLocal
 from apps.users import services
 
 """
-
+中间件
 """
 
 class BasicAuthHandler(AuthenticationHandler):
     def authenticate(self, request: Request):
+        """
+        通过cookie内的access_token认证
+        """
 
         # 从 headers 中提取 Cookie
         cookie_header = request.headers.get("Cookie") if hasattr(request.headers, "get") else None
