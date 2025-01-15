@@ -11,11 +11,11 @@ class User(Base):
     __tablename__ = 'users'
     
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
-    username: Mapped[str] = mapped_column(String)
-    email: Mapped[str] = mapped_column(String)
-    password: Mapped[str] = mapped_column(String)
-    phone: Mapped[str] = mapped_column(String)
-    address: Mapped[str] = mapped_column(String)
+    username: Mapped[str] = mapped_column(String(100))
+    email: Mapped[str] = mapped_column(String(255))
+    password: Mapped[str] = mapped_column(String(255))
+    phone: Mapped[str] = mapped_column(String(20))
+    address: Mapped[str] = mapped_column(String(255))
     is_active: Mapped[bool] = mapped_column(Boolean, default=False)
     is_admin: Mapped[bool] = mapped_column(Boolean, default=False)
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.now)

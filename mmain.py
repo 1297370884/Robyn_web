@@ -31,4 +31,4 @@ users_view_routes(app)
 
 
 if __name__ == "__main__":
-    app.start(host="0.0.0.0",port=8080)
+    app.start(port=8080)

@@ -11,11 +11,11 @@ class Product(Base):
     __tablename__ = 'products'
     
     id: Mapped[int] = mapped_column(Integer, primary_key=True)
-    name: Mapped[str] = mapped_column(String)
+    name: Mapped[str] = mapped_column(String(255))
     price: Mapped[float] = mapped_column(Float)
-    description: Mapped[str] = mapped_column(String)
-    image: Mapped[str] = mapped_column(String, nullable=True)
-    category: Mapped[str] = mapped_column(String)
+    description: Mapped[str] = mapped_column(String(500))
+    image: Mapped[str] = mapped_column(String(255), nullable=True)
+    category: Mapped[str] = mapped_column(String(100))
     created_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.now)
     updated_at: Mapped[datetime] = mapped_column(DateTime, default=datetime.now)
     is_deleted: Mapped[bool] = mapped_column(Boolean, default=False)

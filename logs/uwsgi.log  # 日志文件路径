@@ -1,0 +1,105 @@
+*** Starting uWSGI 2.0.28 (64bit) on [Thu Jan  2 17:06:06 2025] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 02 January 2025 08:16:32
+os: Linux-3.10.0-1160.119.1.el7.x86_64 #1 SMP Tue Jun 4 14:43:51 UTC 2024
+nodename: VM-16-8-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /data/www/Robyn_web
+writing pidfile to /data/www/Robyn_web/logs/uwsgi.pid  # PID 文件路径
+detected binary path: /envs/robynenv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/www/Robyn_web  # 项目根目录
+chdir(): No such file or directory [core/uwsgi.c line 2617]
+*** Starting uWSGI 2.0.28 (64bit) on [Thu Jan  2 17:25:21 2025] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 02 January 2025 08:16:32
+os: Linux-3.10.0-1160.119.1.el7.x86_64 #1 SMP Tue Jun 4 14:43:51 UTC 2024
+nodename: VM-16-8-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /data/www/Robyn_web
+writing pidfile to /data/www/Robyn_web/logs/uwsgi.pid  # PID 文件路径
+detected binary path: /envs/robynenv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/www/Robyn_web  # 项目根目录
+chdir(): No such file or directory [core/uwsgi.c line 2617]
+*** Starting uWSGI 2.0.28 (64bit) on [Fri Jan  3 11:33:25 2025] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 02 January 2025 08:16:32
+os: Linux-3.10.0-1160.119.1.el7.x86_64 #1 SMP Tue Jun 4 14:43:51 UTC 2024
+nodename: VM-16-8-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /etc/nginx/conf.d
+writing pidfile to /data/www/Robyn_web/logs/uwsgi.pid  # PID 文件路径
+detected binary path: /envs/robynenv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/www/Robyn_web  # 项目根目录
+chdir(): No such file or directory [core/uwsgi.c line 2617]
+*** Starting uWSGI 2.0.28 (64bit) on [Fri Jan  3 11:36:07 2025] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 02 January 2025 08:16:32
+os: Linux-3.10.0-1160.119.1.el7.x86_64 #1 SMP Tue Jun 4 14:43:51 UTC 2024
+nodename: VM-16-8-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /data/www/Robyn_web
+writing pidfile to /data/www/Robyn_web/logs/uwsgi.pid  # PID 文件路径
+detected binary path: /envs/robynenv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/www/Robyn_web  # 项目根目录
+chdir(): No such file or directory [core/uwsgi.c line 2617]
+*** Starting uWSGI 2.0.28 (64bit) on [Fri Jan  3 11:41:41 2025] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 02 January 2025 08:16:32
+os: Linux-3.10.0-1160.119.1.el7.x86_64 #1 SMP Tue Jun 4 14:43:51 UTC 2024
+nodename: VM-16-8-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /data/www/Robyn_web
+writing pidfile to /data/www/Robyn_web/logs/uwsgi.pid  # PID 文件路径
+detected binary path: /envs/robynenv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/www/Robyn_web  # 项目根目录
+chdir(): No such file or directory [core/uwsgi.c line 2617]
+*** Starting uWSGI 2.0.28 (64bit) on [Fri Jan  3 12:08:45 2025] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 02 January 2025 08:16:32
+os: Linux-3.10.0-1160.119.1.el7.x86_64 #1 SMP Tue Jun 4 14:43:51 UTC 2024
+nodename: VM-16-8-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /data/www/Robyn_web
+writing pidfile to /data/www/Robyn_web/logs/uwsgi.pid  # PID 文件路径
+detected binary path: /envs/robynenv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/www/Robyn_web  # 项目根目录
+chdir(): No such file or directory [core/uwsgi.c line 2617]
+*** Starting uWSGI 2.0.28 (64bit) on [Fri Jan  3 12:10:21 2025] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-44) on 02 January 2025 08:16:32
+os: Linux-3.10.0-1160.119.1.el7.x86_64 #1 SMP Tue Jun 4 14:43:51 UTC 2024
+nodename: VM-16-8-centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /data/www/Robyn_web
+writing pidfile to /data/www/Robyn_web/logs/uwsgi.pid  # PID 文件路径
+detected binary path: /envs/robynenv/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /data/www/Robyn_web  # 项目根目录
+chdir(): No such file or directory [core/uwsgi.c line 2617]
